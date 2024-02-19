@@ -9,9 +9,6 @@
   - [Installation](#installation)
   - [Running the Application](#running-the-application)
 - [API Endpoints](#api-endpoints)
-  - [Authentication Endpoints](#authentication-endpoints)
-  - [Note Endpoints](#note-endpoints)
-  - [Search Endpoint](#search-endpoint)
 
 ## Introduction
 
@@ -138,89 +135,8 @@ Response:
 "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
 "sold": false,
 "dateOfSale": "2021-10-27T14:59:54.000Z"
-},
-{
-"id": "18",
-"title": "MBJ Womens Solid Short Sleeve Boat Neck V ",
-"price": 29.549999999999997,
-"description": "95 RAYON 5 SPANDEX Made in USA or Imported Do Not Bleach Lightweight fabric with great stretch for comfort Ribbed on sleeves and neckline Double stitching on bottom hem",
-"category": "women's clothing",
-"image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
-"sold": true,
-"dateOfSale": "2021-11-27T14:59:54.000Z"
-},
-{
-"id": "1",
-"title": "Fjallraven Foldsack No 1 Backpack Fits 15 Laptops",
-"price": 329.85,
-"description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop up to 15 inches in the padded sleeve your everyday",
-"category": "men's clothing",
-"image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-"sold": false,
-"dateOfSale": "2021-11-27T14:59:54.000Z"
-},
-{
-"id": "3",
-"title": "Mens Cotton Jacket",
-"price": 615.89,
-"description": "great outerwear jackets for SpringAutumnWinter suitable for many occasions such as working hiking camping mountainrock climbing cycling traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father husband or son in this thanksgiving or Christmas Day.",
-"category": "men's clothing",
-"image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
-"sold": true,
-"dateOfSale": "2022-07-27T14:59:54.000Z"
-},
-{
-"id": "9",
-"title": "WD 2TB Elements Portable External Hard Drive USB 30 ",
-"price": 704,
-"description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity Compatibility Formatted NTFS for Windows 10 Windows 8.1 Windows 7 Reformatting may be required for other operating systems Compatibility may vary depending on users hardware configuration and operating system",
-"category": "electronics",
-"image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
-"sold": true,
-"dateOfSale": "2022-07-27T14:59:54.000Z"
-},
-{
-"id": "6",
-"title": "Solid Gold Petite Micropave ",
-"price": 168,
-"description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
-"category": "jewelery",
-"image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
-"sold": true,
-"dateOfSale": "2021-09-27T14:59:54.000Z"
-},
-{
-"id": "4",
-"title": "Mens Casual Slim Fit",
-"price": 31.98,
-"description": "The color could be slightly different between on the screen and in practice. Please note that body builds vary by person therefore detailed size information should be reviewed below on the product description.",
-"category": "men's clothing",
-"image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
-"sold": false,
-"dateOfSale": "2021-10-27T14:59:54.000Z"
-},
-{
-"id": "13",
-"title": "Acer SB220Q bi 215 inches Full HD 1920 x 1080 IPS UltraThin",
-"price": 4792,
-"description": "21. 5 inches Full HD 1920 x 1080 widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate 75Hz Using HDMI port Zeroframe design ultrathin 4ms response time IPS panel Aspect ratio 16 9. Color Supported 16. 7 million colors. Brightness 250 nit Tilt angle 5 degree to 15 degree. Horizontal viewing angle178 degree. Vertical viewing angle178 degree 75 hertz",
-"category": "electronics",
-"image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
-"sold": false,
-"dateOfSale": "2022-04-27T14:59:54.000Z"
-},
-{
-"id": "17",
-"title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
-"price": 359.91,
-"description": "Lightweight perfet for trip or casual wearLong sleeve with hooded adjustable drawstring waist design. Button and zipper front closure raincoat fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things it covers the hips and the hood is generous but doesnt overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
-"category": "women's clothing",
-"image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
-"sold": false,
-"dateOfSale": "2022-05-27T14:59:54.000Z"
-}
+}....
 ]
-}
 
 Get all statistics for given month
 \*\* GET http://localhost:3000/api/v1/statistics/getAllStatistics?month=12
